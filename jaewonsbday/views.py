@@ -16,5 +16,5 @@ def index(request):
 
     return render(request, 'jaewonsbday/index.html', {
         'isbday': isbday,
-        'timeleft': timelefts
+        'timeleft': timeleft
     })
